@@ -1,0 +1,227 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5706951498,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "loginSteps.given()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7511413597,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginSteps.beforeclass()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 101571,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginSteps.Afterclass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4692066,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"test\" and \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 13
+                },
+                {
+                  "val": "test",
+                  "offset": 24
+                }
+              ],
+              "location": "loginSteps.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 480956,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on signin Button",
+            "match": {
+              "location": "loginSteps.and()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 625703,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "loginSteps.but()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8525287361,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "loginSteps.given()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5498400174,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginSteps.beforeclass()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 51316,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginSteps.Afterclass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 819997,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"test1\" and \"test1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1",
+                  "offset": 13
+                },
+                {
+                  "val": "test1",
+                  "offset": 25
+                }
+              ],
+              "location": "loginSteps.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 354966,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on signin Button",
+            "match": {
+              "location": "loginSteps.and()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319222,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "loginSteps.but()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "features/login.feature",
+    "tags": []
+  }
+]
